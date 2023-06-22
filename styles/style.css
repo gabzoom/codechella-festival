@@ -1,0 +1,20 @@
+@import url('header.css');
+
+:root {
+    --azul-escuro: #2e7ba2;
+    --azul-claro: #c8deef;
+    --mostarda: #df9010;
+    --amarelo: #facf9d;
+    --amarelo-claro: #fbf0dd;
+    --branco: #ffffff;
+    --cinza: #444444;
+    --gradiente-verao: linear-gradient(
+        180deg,
+        #bfdae6 0%,
+        #fcf0dd 50%,
+        #facf9d 100%
+    );
+
+    --fonte-titulo: 'Calistoga', sans-serif;
+    --fonte-texto: 'Raleway', sans-serif;
+}
