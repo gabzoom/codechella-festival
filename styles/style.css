@@ -1,4 +1,5 @@
 @import url('header.css');
+@import url('banner.css');
 
 :root {
     --azul-escuro: #2e7ba2;
@@ -17,4 +18,8 @@
 
     --fonte-titulo: 'Calistoga', sans-serif;
     --fonte-texto: 'Raleway', sans-serif;
+}
+
+body {
+    color: var(--cinza);
 }
