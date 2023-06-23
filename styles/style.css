@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('banner.css');
+@import url('about.css');
 
 :root {
     --azul-escuro: #2e7ba2;
