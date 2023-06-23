@@ -2,6 +2,7 @@
 @import url('banner.css');
 @import url('about.css');
 @import url('lineup.css');
+@import url('footer.css');
 
 :root {
     --azul-escuro: #2e7ba2;
