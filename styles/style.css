@@ -25,3 +25,7 @@
 body {
     color: var(--cinza);
 }
+
+main {
+    background: var(--gradiente-verao);
+}
