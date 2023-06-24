@@ -23,6 +23,15 @@
     isolation: isolate;
 }
 
+.banner-bottom {
+    height: 338px;
+    background-image: url('../assets/Banner_bot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    opacity: 65%;
+}
+
 @media screen and (min-width: 768px) {
     .banner {
         padding: 109px 0;
