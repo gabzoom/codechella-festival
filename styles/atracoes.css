@@ -1,0 +1,65 @@
+.atracoes {
+    font-family: var(--fonte-texto);
+    text-align: center;
+    padding: 32px 24px;
+}
+
+.atracoes img {
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto 32px;
+    width: 312px;
+    height: 381px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.atracoes h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+    font-weight: 700;
+}
+
+.atracoes p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .atracoes {
+        padding: 32px 0;
+    }
+
+    .atracoes img {
+        width: 609px;
+    }
+
+    .atracoes p {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .atracoes {
+        padding: 64px 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .atracoes-text-box {
+        width: 540px;
+        text-align: start;
+    }
+
+    .atracoes img {
+        margin: 0;
+    }
+
+    .atracoes p {
+        padding: 0;
+        margin-top: 24px;
+    }
+}
