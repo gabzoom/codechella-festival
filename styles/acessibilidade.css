@@ -1,0 +1,65 @@
+.acessibilidade {
+    font-family: var(--fonte-texto);
+    text-align: center;
+    padding: 32px 24px;
+}
+
+.acessibilidade img {
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto 32px;
+    max-width: 100%;
+}
+
+.acessibilidade h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+    font-weight: 700;
+}
+
+.acessibilidade p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .acessibilidade {
+        padding: 32px 0;
+    }
+
+    .acessibilidade img {
+        width: 609px;
+        height: 381px;
+        object-fit: cover;
+        object-position: 100% 25%;
+    }
+
+    .acessibilidade p {
+        padding: 0 120px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .acessibilidade {
+        padding: 64px 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .acessibilidade-text-box {
+        width: 540px;
+        text-align: start;
+    }
+
+    .acessibilidade img {
+        margin: 0;
+    }
+
+    .acessibilidade p {
+        padding: 0;
+        margin-top: 24px;
+    }
+}
