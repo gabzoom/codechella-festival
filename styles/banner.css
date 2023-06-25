@@ -13,6 +13,7 @@
     position: absolute;
     inset: 0;
     opacity: 40%;
+    mix-blend-mode: multiply;
 }
 
 .banner-title {
@@ -29,7 +30,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
-    opacity: 65%;
+    opacity: 85%;
+    mix-blend-mode: multiply;
 }
 
 @media screen and (min-width: 768px) {
