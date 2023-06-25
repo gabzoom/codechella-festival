@@ -45,7 +45,8 @@ footer img {
     footer {
         padding: 60px 120px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 515px;
         align-items: center;
         text-align: left;
     }
