@@ -7,6 +7,7 @@
 @import url('acessibilidade.css');
 @import url('sustentabilidade.css');
 @import url('atracoes.css');
+@import url('banner_setores.css');
 
 :root {
     --azul-escuro: #2e7ba2;
