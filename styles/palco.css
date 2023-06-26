@@ -1,0 +1,84 @@
+.palco {
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.palco img {
+    width: 360px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.legenda {
+    width: 246px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.legenda li:first-child {
+    font-weight: 700;
+}
+
+.legenda li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.legenda-cor {
+    width: 32px;
+    height: 32px;
+}
+
+[legenda-cor='azul'] {
+    background: #0e7df1;
+}
+
+[legenda-cor='rosa'] {
+    background: #fe016e;
+}
+
+[legenda-cor='verde'] {
+    background: #01a89e;
+}
+
+[legenda-cor='roxo'] {
+    background: #3f51b5;
+}
+
+@media screen and (min-width: 768px) {
+    .palco {
+        padding: 32px 60px;
+    }
+
+    .palco img {
+        width: 648px;
+        margin-bottom: 48px;
+    }
+
+    .legenda li:first-child {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .palco {
+        padding: 32px 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .palco img,
+    .legenda {
+        margin: 0;
+    }
+}
