@@ -1,0 +1,32 @@
+.detalhes {
+    font-family: var(--fonte-texto);
+    text-align: center;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.detalhes img {
+    border-radius: 16px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.detalhes h2,
+.detalhes h3 {
+    font-size: 32px;
+    line-height: 37.5px;
+    font-weight: 700;
+}
+
+.detalhes h3 {
+    margin: 24px 0;
+}
+
+.detalhes p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+}
