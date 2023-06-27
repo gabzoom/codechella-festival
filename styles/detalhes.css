@@ -2,6 +2,20 @@
     font-family: var(--fonte-texto);
     text-align: center;
     padding: 32px 24px;
+}
+
+.detalhes h2 {
+    margin-bottom: 32px;
+}
+
+.detalhes h2,
+.detalhes h3 {
+    font-size: 32px;
+    line-height: 37.5px;
+    font-weight: 700;
+}
+
+.detalhes-setores-box {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -14,13 +28,6 @@
     max-width: 100%;
 }
 
-.detalhes h2,
-.detalhes h3 {
-    font-size: 32px;
-    line-height: 37.5px;
-    font-weight: 700;
-}
-
 .detalhes h3 {
     margin: 24px 0;
 }
@@ -29,4 +36,43 @@
     font-size: 20px;
     line-height: 40px;
     font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .detalhes {
+        padding: 32px 60px;
+    }
+
+    .detalhes h2 {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .detalhes img {
+        width: 382.4px;
+        height: 239px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .detalhes {
+        padding: 48px 120px;
+    }
+
+    .detalhes-setores-box {
+        flex-direction: row;
+        gap: 24px;
+        align-items: start;
+        height: 631px;
+        justify-content: center;
+    }
+
+    .detalhes-setores-box div {
+        width: 383px;
+    }
+
+    .detalhes-setores-box div:nth-child(2) {
+        align-self: flex-end;
+    }
 }
