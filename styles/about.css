@@ -82,4 +82,12 @@
     .about-title {
         margin: 0 auto;
     }
+
+    .about-btn {
+        transition: 0.5s all ease;
+    }
+
+    .about-btn:hover {
+        background-color: #519ec5;
+    }
 }
