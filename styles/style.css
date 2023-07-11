@@ -10,6 +10,7 @@
 @import url('banner_setores.css');
 @import url('palco.css');
 @import url('detalhes.css');
+@import url('banner_informacoes.css');
 
 :root {
     --azul-escuro: #2e7ba2;

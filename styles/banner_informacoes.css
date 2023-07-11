@@ -1,0 +1,27 @@
+.banner-infos {
+    padding: 119.5px 0;
+}
+
+.banner-infos::before {
+    background-image: url('../assets/Banner_infos.jpg');
+}
+
+@media screen and (min-width: 768px) {
+    .banner-infos {
+        padding: 150.5px 0;
+    }
+
+    .banner-infos::before {
+        background-position: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner-infos {
+        padding: 162px 0;
+    }
+
+    .banner-infos::before {
+        background-position: 100% 58%;
+    }
+}
