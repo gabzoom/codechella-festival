@@ -1,6 +1,5 @@
 .faq {
     padding: 48px 24px;
-    font-family: var(--fonte-texto);
 }
 
 .faq h2 {
@@ -14,6 +13,7 @@
 }
 
 .accordion {
+    font-family: var(--fonte-texto);
     font-size: 32px;
     line-height: 38px;
     font-weight: 700;
@@ -42,6 +42,7 @@
     padding: 16px;
     background-color: var(--azul-claro);
     color: var(--cinza);
+    font-family: var(--fonte-texto);
     font-size: 20px;
     line-height: 40px;
     font-weight: 500;
@@ -69,5 +70,11 @@
     .panel {
         max-width: 996px;
         margin: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .faq {
+        padding: 48px 120px;
     }
 }
