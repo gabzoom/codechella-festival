@@ -42,6 +42,12 @@
   border-radius: 5px;
 }
 
+.form-bottom-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 #submit {
   font-size: 20px;
   font-weight: 700;
@@ -60,7 +66,6 @@
   gap: 16px;
   padding: 8px 0;
   margin: auto;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -86,7 +91,37 @@
   }
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .formulario {
+    padding: 48px 120px;
+    max-width: 1035px;
+  }
+
+  .formulario input,
+  .formulario select {
+    width: 795px;
+  }
+
+  .form-bottom-box {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  #opcoes-ingresso,
+  #data-nascimento {
+    width: 385.5px;
+    max-width: 100%;
+  }
+
+  #opcoes-ingresso,
+  #submit {
+    cursor: pointer;
+  }
+
+  #data-nascimento {
+    cursor: text;
+  }
+
   #submit {
     transition: 0.5s all ease;
   }
@@ -94,4 +129,4 @@
   #submit:hover {
     background-color: #519ec5;
   }
-} */
+}
