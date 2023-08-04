@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@400;500;700;800&display=swap"
     rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Garanta seu Ingresso</title>
 </head>
 
@@ -47,6 +48,46 @@
     <div class="banner banner-comprar">
       <h1 class="banner-title">Garanta seu Ingresso</h1>
     </div>
+
+    <section class="formulario">
+      <h2>Preencha o formulário a seguir:</h2>
+
+      <form>
+        <div>
+          <label for="nome">Nome Completo:</label>
+          <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email">
+        </div>
+
+        <div>
+          <label for="opcoes-ingresso">Tipo de ingresso:</label>
+          <select name="ingressos" id="opcoes-ingresso">
+            <option value="">Tipo de ingresso</option>
+            <option value="premium">Pista Premium</option>
+            <option value="comum">Pista Comum</option>
+            <option value="terreo">Cadeiras térreo</option>
+            <option value="superiores">Cadeiras superiores</option>
+            <option value="rampas">Rampas</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="data-nascimento">Data de nascimento:</label>
+          <input type="date" name="data-nascimento" id="data-nascimento">
+        </div>
+
+        <div>
+          <button type="submit" id="submit">
+            Avançar!
+            <i class="material-icons" style="font-size:32px">arrow_forward</i>
+          </button>
+        </div>
+      </form>
+    </section>
   </main>
 
   <footer>
