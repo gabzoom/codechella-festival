@@ -62,3 +62,36 @@
   margin: auto;
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+  .formulario {
+    padding: 48px 60px;
+    max-width: 820px;
+  }
+
+  .formulario h2 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .formulario input,
+  .formulario select {
+    width: 700px;
+    padding: 0 15px;
+  }
+
+  #data-nascimento {
+    width: 453px;
+    max-width: 100%;
+  }
+}
+
+/* @media screen and (min-width: 1440px) {
+  #submit {
+    transition: 0.5s all ease;
+  }
+
+  #submit:hover {
+    background-color: #519ec5;
+  }
+} */
