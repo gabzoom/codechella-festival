@@ -1,0 +1,28 @@
+.banner-comprado {
+    padding: 98.5px 24px;
+}
+
+.banner-comprado::before {
+    background-image: url('../assets/Banner_comprado.jpg');
+    background-position: 10% 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .banner-comprado {
+        padding: 149px 0;
+    }
+
+    .banner-comprado::before {
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner-comprado {
+        padding: 162px 0;
+    }
+
+    .banner-comprado::before {
+        background-position: 0% 45%;
+    }
+}

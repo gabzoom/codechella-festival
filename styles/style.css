@@ -14,6 +14,7 @@
 @import url('informacoes.css');
 @import url('banner_comprar.css');
 @import url('ingresso.css');
+@import url('banner_comprado.css');
 
 :root {
     --azul-escuro: #2e7ba2;
