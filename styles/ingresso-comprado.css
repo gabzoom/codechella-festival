@@ -1,8 +1,8 @@
 .ingresso-comprado {
   padding: 64px 24px;
   font-family: var(--fonte-texto);
-  /* max-width: 360px; */
-  /* margin: auto; */
+  max-width: 360px;
+  margin: auto;
 }
 
 .ingresso-comprado h2 {
@@ -18,10 +18,7 @@
   border: 0px solid var(--cinza, #444);
   background: var(--gradiente-verao);
   box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15);
-
   padding: 32px;
-  display: flex;
-  flex-direction: column;
 
   font-family: var(--fonte-texto);
   font-size: 20px;
@@ -59,8 +56,7 @@
 @media screen and (min-width: 768px) {
   .ingresso-comprado {
     padding: 64px 60px;
-    /* max-width: 360px; */
-    /* margin: auto; */
+    max-width: 768px;
   }
 
   .ingresso-qrcode {
@@ -68,6 +64,33 @@
   }
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .ingresso-comprado {
+    padding: 64px 120px;
+    max-width: 1440px;
+  }
 
-} */
+  .ingresso-comprado h2,
+  .ingresso {
+    max-width: 792px;
+    margin: 0 auto 32px;
+  }
+
+  .ingresso {
+    text-align: start;
+  }
+
+  .logos-box {
+    margin-bottom: 32px;
+  }
+
+  .ingresso-qrcode {
+    max-width: 222px;
+    margin: 0px 40px 0px 0px;
+  }
+
+  .infos-box {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
