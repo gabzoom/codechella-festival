@@ -45,7 +45,7 @@
 
 .ingresso-qrcode {
   margin: 32px auto;
-  max-width: 248px;
+  max-width: 190px;
   width: 100%;
 }
 
@@ -56,10 +56,18 @@
   margin-bottom: 16px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .ingresso-comprado {
+    padding: 64px 60px;
+    /* max-width: 360px; */
+    /* margin: auto; */
+  }
 
+  .ingresso-qrcode {
+    max-width: 310px;
+  }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
 
 } */
