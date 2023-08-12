@@ -1,0 +1,65 @@
+.ingresso-comprado {
+  padding: 64px 24px;
+  font-family: var(--fonte-texto);
+  /* max-width: 360px; */
+  /* margin: auto; */
+}
+
+.ingresso-comprado h2 {
+  font-family: var(--fonte-texto);
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.ingresso {
+  border: 0px solid var(--cinza, #444);
+  background: var(--gradiente-verao);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15);
+
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+
+  font-family: var(--fonte-texto);
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.logos-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingresso-logo1 {
+  max-width: 117px;
+}
+
+.ingresso-logo2 {
+  max-width: 32px;
+}
+
+.ingresso-qrcode {
+  margin: 32px auto;
+  max-width: 248px;
+  width: 100%;
+}
+
+.ingresso-nome {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* @media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+} */
